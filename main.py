@@ -9,10 +9,10 @@ b = int(input("Number 2: "))
 cmd = input("CMD (+, -, *)")
 
 if cmd == "+":
-	add(a,b)
+	print(add(a,b))
 if cmd == "-":
-	sub(a,b)
+	print(sub(a,b))
 if cmd == "*":
-	mul(a,b)
+	print(mul(a,b))
 
 
